@@ -1,4 +1,4 @@
-# Yandex.SpeechKit.Xamarin
+# Yandex.SpeechKit.Xamarin (beta)
 Port of Yandex SpeechKit Mobile SDK for Xamarin
 
 > The Yandex SpeechKit Mobile SDK is a multiplatform library that allows you to add Yandex speech technologies to mobile apps for iOS, Android, and Windows Phone.
