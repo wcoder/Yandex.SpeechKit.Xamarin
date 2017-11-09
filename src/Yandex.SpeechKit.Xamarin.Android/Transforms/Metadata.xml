@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+
+	
+  <attr path="/api/package[@name='ru.yandex.speechkit']/interface[@name='RecognizerListener']/method[@name='onError']/parameter[@name='p0']" name="name">recognizerObj</attr>
+  <attr path="/api/package[@name='ru.yandex.speechkit']/interface[@name='RecognizerListener']/method[@name='onError']/parameter[@name='p1']" name="name">errorObj</attr>
+
+
+  <attr path="/api/package[@name='com.nineoldandroids.animation']/class[@name='KeyframeSet']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.nineoldandroids.animation']/class[@name='AnimatorSet']/method[@name='setDuration' and count(parameter)=1 and parameter[1][@type='long']]" name="return">com.nineoldandroids.animation.Animator</attr>
+  <attr path="/api/package[@name='com.nineoldandroids.animation']/class[@name='ValueAnimator']/method[@name='setDuration' and count(parameter)=1 and parameter[1][@type='long']]" name="return">com.nineoldandroids.animation.Animator</attr>
+
+</metadata>
