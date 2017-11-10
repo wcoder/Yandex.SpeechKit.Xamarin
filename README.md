@@ -15,7 +15,7 @@ https://tech.yandex.com/speechkit/mobilesdk/
 
 | Platform            | Version | SDK lib | Documentation |
 | ------------------- | :------------------: | :---: | :---: |
-| Xamarin.Android     | API 10+ | v2.5.0 | [Quick Start](https://tech.yandex.com/speechkit/mobilesdk/doc/android/2.5/quick-start/concepts/about-docpage/)
+| Xamarin.Android     | API 10+ | [v2.5.0](http://search.maven.org/#artifactdetails%7Ccom.yandex.android%7Cspeechkit%7C2.5.0%7Caar) | [Quick Start](https://tech.yandex.com/speechkit/mobilesdk/doc/android/2.5/quick-start/concepts/about-docpage/)
 | Xamarin.iOS         | in progress | | |
 
 ## Contributors
