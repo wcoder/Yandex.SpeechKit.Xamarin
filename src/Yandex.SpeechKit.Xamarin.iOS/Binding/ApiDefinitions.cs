@@ -482,44 +482,44 @@ namespace YandexSpeechKit
     }
 
     // @interface YSKSpeechRecognitionViewController : UIViewController
-    [BaseType (typeof(UIViewController))]
+    [BaseType(typeof(UIViewController))]
     interface YSKSpeechRecognitionViewController
     {
-    	[Wrap ("WeakDelegate")]
-    	YSKSpeechRecognitionViewControllerDelegate Delegate { get; set; }
+        [Wrap("WeakDelegate")]
+        YSKSpeechRecognitionViewControllerDelegate Delegate { get; set; }
 
-    	// @property (nonatomic, weak) id<YSKSpeechRecognitionViewControllerDelegate> delegate;
-    	[NullAllowed, Export ("delegate", ArgumentSemantic.Weak)]
-    	NSObject WeakDelegate { get; set; }
+        // @property (nonatomic, weak) id<YSKSpeechRecognitionViewControllerDelegate> delegate;
+        [NullAllowed, Export("delegate", ArgumentSemantic.Weak)]
+        NSObject WeakDelegate { get; set; }
 
-    	// @property (assign, nonatomic) BOOL partialResultsDisplayEnabled;
-    	[Export ("partialResultsDisplayEnabled")]
-    	bool PartialResultsDisplayEnabled { get; set; }
+        // @property (assign, nonatomic) BOOL partialResultsDisplayEnabled;
+        [Export("partialResultsDisplayEnabled")]
+        bool PartialResultsDisplayEnabled { get; set; }
 
-    	// @property (assign, nonatomic) BOOL resultsListDisplayEnabled;
-    	[Export ("resultsListDisplayEnabled")]
-    	bool ResultsListDisplayEnabled { get; set; }
+        // @property (assign, nonatomic) BOOL resultsListDisplayEnabled;
+        [Export("resultsListDisplayEnabled")]
+        bool ResultsListDisplayEnabled { get; set; }
 
-    	// -(instancetype)initWithLanguage:(NSString *)language model:(NSString *)model;
-    	[Export ("initWithLanguage:model:")]
-    	IntPtr Constructor (string language, string model);
+        // -(instancetype)initWithLanguage:(NSString *)language model:(NSString *)model;
+        [Export("initWithLanguage:model:")]
+        IntPtr Constructor(string language, string model);
 
-    	// -(instancetype)initWithModel:(NSString *)model;
-    	[Export ("initWithModel:")]
-    	IntPtr Constructor (string model);
+        // -(instancetype)initWithModel:(NSString *)model;
+        [Export("initWithModel:")]
+        IntPtr Constructor(string model);
 
-    	// +(BOOL)isRecognitionAvailable;
-    	[Static]
-    	[Export ("isRecognitionAvailable")]
-    	bool IsRecognitionAvailable { get; }
+        // +(BOOL)isRecognitionAvailable;
+        [Static]
+        [Export("isRecognitionAvailable")]
+        bool IsRecognitionAvailable { get; }
 
-    	// -(void)cancel;
-    	[Export ("cancel")]
-    	void Cancel ();
-
-        // -(void) start;
+        // -(void)cancel;
         [Export("start")]
         void Start();
+
+        // -(void)cancel;
+        [Export("cancel")]
+        void Cancel();
     }
 
     // @protocol YSKSpeechRecognitionViewControllerDelegate <NSObject>

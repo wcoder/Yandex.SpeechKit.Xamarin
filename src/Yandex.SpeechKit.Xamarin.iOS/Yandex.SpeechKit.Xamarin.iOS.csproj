@@ -34,12 +34,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <NativeReference Include="Binding\YandexSpeechKit.framework">
-      <Kind>Framework</Kind>
-      <SmartLink>False</SmartLink>
-    </NativeReference>
+    <Compile Include="Linker.cs" />
+    <Compile Include="YandexSpeechKit.linkwith.cs" />
   </ItemGroup>
   <ItemGroup>
     <ObjcBindingApiDefinition Include="Binding\ApiDefinitions.cs">
@@ -50,6 +46,11 @@
     <ObjcBindingCoreSource Include="Binding\StructsAndEnums.cs">
       <Link>StructsAndEnums.cs</Link>
     </ObjcBindingCoreSource>
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingNativeFramework Include="Binding\YandexSpeechKit.framework">
+      <Link>YandexSpeechKit.framework</Link>
+    </ObjcBindingNativeFramework>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
