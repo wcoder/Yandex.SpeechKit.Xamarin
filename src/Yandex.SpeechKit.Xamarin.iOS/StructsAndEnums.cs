@@ -8,7 +8,7 @@ namespace YandexSpeechKit
         Debug = 3
     }
 
-    public enum YSKSpeechErrorCode : uint
+    public enum _YSKSpeechErrorCode : uint
     {
         Ok = 0,
         APIKey,

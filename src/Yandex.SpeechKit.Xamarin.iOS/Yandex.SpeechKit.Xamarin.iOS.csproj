@@ -38,19 +38,15 @@
     <Compile Include="YandexSpeechKit.linkwith.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ObjcBindingApiDefinition Include="Binding\ApiDefinitions.cs">
-      <Link>ApiDefinitions.cs</Link>
-    </ObjcBindingApiDefinition>
-  </ItemGroup>
-  <ItemGroup>
-    <ObjcBindingCoreSource Include="Binding\StructsAndEnums.cs">
-      <Link>StructsAndEnums.cs</Link>
-    </ObjcBindingCoreSource>
-  </ItemGroup>
-  <ItemGroup>
     <ObjcBindingNativeFramework Include="Binding\YandexSpeechKit.framework">
       <Link>YandexSpeechKit.framework</Link>
     </ObjcBindingNativeFramework>
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
