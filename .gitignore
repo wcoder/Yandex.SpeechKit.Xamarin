@@ -2,7 +2,7 @@
 # Created by https://www.gitignore.io/api/java,macos,xcode,csharp,windows,objective-c,visualstudio,xamarinstudio,androidstudio
 
 .droidres/
-
+src/Yandex.SpeechKit.Xamarin.iOS/Binding/
 
 ### AndroidStudio ###
 # Covers files to be ignored for android development using Android Studio.
