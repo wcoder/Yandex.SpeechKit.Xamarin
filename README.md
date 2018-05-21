@@ -1,3 +1,5 @@
+<p align="center"><img src="logo/verticalversion.png" alt="Yandex.SpeechKit.Xamarin" height="200px"></p>
+
 # Yandex.SpeechKit.Xamarin (beta)
 Port of Yandex SpeechKit Mobile SDK for Xamarin
 
